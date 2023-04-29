@@ -1,0 +1,275 @@
+body {
+  margin: 0px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 500px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-image: url(https://media.istockphoto.com/id/1435167377/it/foto/campo-da-stadio-di-calcio-sfondo-di-calcio.jpg?s=170667a&w=0&k=20&c=sOWug2rkm3Fzm9r2bwt8K9mdX72KhcsmlblpUcS44TE=);
+  background-size: cover;
+  position: relative;
+  z-index: -2;
+}
+
+#overlay {
+  background-color:
+    rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(241, 241, 247);
+  font-family: 'Montserrat', Arial;
+  font-size: 40px;
+  width: 780px;
+  
+}
+
+
+
+a {
+  font-weight: bold;
+  font-size: 20px;
+  background-color: rgb(16, 95, 131);
+  color: rgb(248, 245, 245);
+  padding: 5px 15px;
+  border-radius: 2px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: whitesmoke;
+  font-family: 'Montserrat', Arial;
+  height: 50px;
+}
+
+#flex-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  
+  .flex-item{
+  border-radius: 50px;
+  background-color: rgb(185, 208, 219);
+  height:100px;
+  width: 100px;
+  margin-top: -50px;
+  border: 2px solid rgb(16, 95, 131);
+  background-repeat: no-repeat;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/9b/Omino_stilizzato.png);
+  background-size: cover;
+  }
+  
+  h3{
+    margin-top: -1px;
+     color: black;
+    font-family: 'Montserrat', Arial;
+    
+    }
+  
+    h5{
+      margin-top: -20px;
+      margin-bottom: 60px ;
+      color: rgb(16, 95, 131);
+      font-family: 'Montserrat', Arial;
+    }
+
+
+article{
+  width: 100%;
+  margin-top:60px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+section{
+  display:flex;
+  width:calc(66.67% + 80px);
+  margin-bottom:120px;
+     
+}
+
+.contenitore{
+  
+  display:flex;
+  flex-direction: column;
+  width:calc(100% - 80px);
+}
+
+.numero-iniziale{  
+  
+  width:40px; 
+  margin-right: 40px;
+  text-align: right;
+}
+
+.numero-iniziale,.intestazione{
+  font-family: 'Roboto Slab', sans-serif;
+  font-size:40px;
+  font-weight: bold;
+  color:rgb(16, 95, 131);
+}
+
+.paragrafo,.sotto-paragrafo{
+  text-justify: inter-word;
+  line-height: 32px;
+  text-align: justify;
+  font-weight: bold;
+ 
+}
+.paragrafo{
+  color:rgb(51, 51, 51);
+}
+
+
+.sotto-intestazione,.paragrafo,.sotto-paragrafo{ 
+  margin-bottom:20px;
+  font-size:20px;   
+  font-family: 'Montserrat', Arial;  
+}
+
+.sotto-intestazione, .sotto-paragrafo{
+  color:rgb(16, 95, 131);
+}
+
+
+
+
+
+#immagine{
+ height: 750px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 120px;
+  border:1px solid black;
+  }
+
+
+
+footer{
+  font-size: 24px;
+  background-color: rgb(16, 95, 131);
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+@media(max-width:768px){
+
+  a{
+font-size: 10px;
+padding: 4px 9px;
+}
+
+h1{
+  font-size: 25px;
+}
+.flex-item{
+height: 70px;
+width: 70px;
+margin-top: -35px;
+
+}
+
+h3{
+  font-size: 17px;
+}
+h5{
+  font-size: 12px;
+}
+
+.numero-iniziale,.intestazione{
+  font-size:25px;
+}
+
+.sotto-intestazione,.paragrafo,.sotto-paragrafo{ 
+  font-size:15px; 
+}
+
+
+#immagine{
+ height: 180px;
+ margin-bottom: 80px;
+}
+
+footer{
+font-size: 12px;
+}
+
+}
+
+#song span{
+  margin-top: 30px;
+    font-size: 20px;
+    font-family: 'Montserrat', Arial;
+    
+}
+#song img{
+    width: 50%;
+    height: 50%;
+    padding: 100px;
+    
+}
+#song a{
+  padding: 100px;
+  background-color: white;
+  color: rgb(16, 95, 131);
+}
+
+
+
+#champions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #champions  #song {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  #GIF, #music {
+    font-family: 'Montserrat', Arial; 
+    font-size: 30px;
+    color: rgb(29, 92, 146);
+    text-align: center;
+  }
+  #champions img{
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-left: 100px;
+  
+  }
+ 
+    
